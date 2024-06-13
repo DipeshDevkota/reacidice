@@ -1,0 +1,122 @@
+.dice
+{
+  border: 2px solid black;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 10vw;
+  margin-left: 5vw;
+}
+
+.title
+{
+  border:2px solid black;
+  margin-right: 20vw;
+  margin-top: 7vw;
+}
+.tit1
+{
+   font-size: 4vw;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+.tit2
+{
+ border:1px solid yellow;
+ margin-left: 17vw;
+}
+.btn1
+{
+  background-color: black;
+  color:white;
+  padding:0.5vw 0.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid transparent;
+  transition:0.3s background ease-out;
+
+  cursor:pointer;
+}
+.btn1:hover{
+  background-color: white;
+  border:1px solid black;
+  color:black;
+  transition:0.2s background ease-out;
+}
+
+
+/* <!------NUmberselector----> */
+
+.number
+{
+  border:1px solid red;
+  margin-top: 2vw;
+  display: flex;
+  gap:24px;
+}
+
+.top
+{
+  border:1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vw;
+  margin-left: 2vw;
+}
+.select
+{
+  border:2px solid pink;margin-top: 4vw;
+  font-weight:bold;
+}
+/* <!-----dice---> */
+
+.one{
+  height:20vw;
+  width:20vw;
+  gap:2vw;
+  border:1px solid black;
+}
+.dice1
+{
+  border:6px solid purple;
+  margin: 5vw 0vw 2vw 35vw;
+  cursor:pointer;
+}
+
+
+.dice{
+  display: inline;
+}
+h3{
+  border: 1px solid pink;
+  margin-left: 35vw;
+}
+.error
+{
+  color:red;
+}
+
+
+.rst
+{
+  border:1px solid black;
+  margin-left: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+.reset
+{
+   margin-right: 2vw;
+   background-color: black;
+   color:white;
+   padding: 0.6vw 1vw;
+   cursor: pointer;
+   width: 10vw;
+   margin-bottom: 0.4vw;
+}
+.rules
+{
+  background-color: black;
+  color:white;
+  padding: 0.6vw 1vw;
+  cursor: pointer;
+  width:10vw;
+}
